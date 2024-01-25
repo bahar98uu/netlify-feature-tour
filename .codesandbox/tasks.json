@@ -12,22 +12,22 @@
     "dev": {
       "name": "dev",
       "command": "npm run dev",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
     },
     "start": {
       "name": "start",
-      "command": "npm run start",
-      "runAtStart": false
+      "command": "npm run start"
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "preview": {
       "name": "preview",
-      "command": "npm run preview",
-      "runAtStart": false
+      "command": "npm run preview"
     }
   }
 }
